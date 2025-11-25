@@ -5,6 +5,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navbar-container {
   position: absolute;
   top: 0;
@@ -180,6 +184,32 @@
   background-image: url(images/previsao.png);
 }
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6.25rem;
+  max-width: 50rem;
+  margin-inline: auto;
+}
+
+.contact-form > input,
+.contact-form textarea {
+  margin-bottom: 1.25rem;
+}
+
+.footer-container {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.75);
+  display: flex;
+  justify-content: space-between;
+  padding: 3.125rem;
+}
+
+.footer-container > .social-medias > a {
+  margin-right: 3.125rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
 /* Utilidades */
 
 .section-container {
@@ -205,4 +235,31 @@
   text-align: center;
   width: fit-content;
   margin: auto;
+}
+
+.form-inputs {
+  border: none;
+  border-radius: 0.625rem;
+  padding: 1.25rem;
+  background-color: #202020;
+  color: rgba(255, 255, 255, 0.5);
+  resize: none;
+}
+
+.form-inputs:focus {
+  outline: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.button {
+  border: none;
+  padding: 1.25rem;
+  border-radius: 0.625rem;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  cursor: pointer;
 }
