@@ -1,0 +1,109 @@
+@media (max-width: 1024px) {
+  .navbar-container {
+    display: none;
+  }
+
+  .showcase-container > h1 {
+    font-size: 3rem;
+    line-height: 3.3rem;
+    text-align: center;
+  }
+
+  .showcase-container > p {
+    font-size: 0.875rem;
+    text-align: center;
+    margin-top: 0.9375rem;
+  }
+
+  .about-me-content {
+    flex-direction: column;
+    padding-inline: 1.875rem;
+  }
+  .skills-content {
+    flex-direction: column;
+  }
+
+  .about-me-content > img {
+    width: 12.5rem;
+    height: 12.5rem;
+    margin-right: 0;
+    margin-top: 1.5rem;
+  }
+
+  .about-me-content > p {
+    font-size: 0.875rem;
+    text-align: center;
+    margin-top: 0.9375rem;
+  }
+
+  .skills-content {
+    margin-top: 2.5rem;
+    gap: 2.5rem;
+  }
+
+  .skill-item {
+    padding: 1.875rem;
+  }
+
+  .skill-item > img {
+    width: 3.75rem;
+    height: 3.75rem;
+  }
+
+  .skill-item > p {
+    font-size: 0.875rem;
+  }
+
+  .project-item,
+  .project-item:nth-child(even) {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .projects-content {
+    margin-top: 2.5rem;
+  }
+
+  .project-text {
+    margin-left: 0;
+    max-width: 100%;
+    margin-top: 1.25rem;
+    text-align: center;
+  }
+
+  .project-text > h3 {
+    font-size: 1.5rem;
+  }
+
+  .project-text > p {
+    font-size: 0.875rem;
+  }
+
+  .contact-form {
+    margin-top: 2.5rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-medias > a:last-child {
+    margin-right: 0;
+  }
+
+  .social-medias {
+    margin-bottom: 0.9375rem;
+  }
+
+  /* Utilidades */
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-container {
+    padding: 1.875rem;
+  }
+}
